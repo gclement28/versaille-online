@@ -1,0 +1,37 @@
+.home-first-bloc {
+  display: flex;
+  flex-direction: column;
+
+  background: url(../Images/home.jpg);
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.home-text {
+  font-size: 2rem;
+  width: 30%;
+  text-align: center;
+}
+.home-second-block {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.btn-reservation {
+  margin: 10px;
+  width: 15%;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 1rem;
+}

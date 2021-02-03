@@ -1,0 +1,17 @@
+.title-famille {
+  text-align: center;
+  padding: 20px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-famille {
+  margin: 10px;
+  border-radius: 50%;
+  width: 20%;
+}
